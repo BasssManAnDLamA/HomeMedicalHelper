@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_input"
+            android:icon="@drawable/ic_input_black_18dp"
+            android:title="Графики" />
+
+    </group>
+    <item android:title="Ввод">
+        <menu>
+            <item android:id="@+id/nav_pressure"
+                android:icon="@drawable/ic_av_timer_18dp"
+                android:title="Давление" />
+            <item android:id="@+id/nav_pulse"
+                android:title="Пульс" />
+            <item android:id="@+id/nav_temperature" android:icon="@android:drawable/ic_menu_share"
+                android:title="Температура" />
+            <item android:id="@+id/nav_sugar" android:icon="@android:drawable/ic_menu_share"
+                android:title="Сахар в крови" />
+            <item android:id="@+id/nav_state" android:icon="@android:drawable/ic_menu_send"
+                android:title="Состояние" />
+        </menu>
+    </item>
+    <item android:title="Настройка">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
